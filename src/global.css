@@ -4,7 +4,7 @@
 @import "tw-animate-css";
 
 @theme {
-  --font-display: "Inter", "sans-serif", system-ui; 
+  --font-display: "Inter", "sans-serif", system-ui;
 }
 
 @custom-variant dark (&:is(.dark *));

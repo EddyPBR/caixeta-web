@@ -1,0 +1,27 @@
+{
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "tab",
+    "tabWidth": 2,
+    "lineWidth": 80,
+    "quotes": "double",
+    "semi": true
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "all": "error",
+      "exclude": ["naming-convention", "camelcase"],
+      "quotes": ["error", "double"],
+      "semi": ["error", "always"]
+    }
+  },
+  "language": {
+    "typescript": {
+      "enabled": true,
+      "parserOptions": {
+        "project": "./tsconfig.json"
+      }
+    }
+  }
+}
